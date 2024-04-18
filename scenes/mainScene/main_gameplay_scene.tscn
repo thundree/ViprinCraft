@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://d18lpktwxmxu3"]
+
+[ext_resource type="PackedScene" uid="uid://dlwjcxh24573f" path="res://scenes/world/world.tscn" id="1_jnopy"]
+[ext_resource type="Script" path="res://src/Main.gd" id="1_srmjs"]
+[ext_resource type="PackedScene" uid="uid://cs03og2or5ktq" path="res://scenes/player/player.tscn" id="2_gymtl"]
+
+[node name="main_gameplay_scene" type="Node3D"]
+script = ExtResource("1_srmjs")
+
+[node name="world" parent="." instance=ExtResource("1_jnopy")]
+
+[node name="player" parent="." instance=ExtResource("2_gymtl")]

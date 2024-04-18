@@ -1,0 +1,4 @@
+res://scenes/mainScene/main_gameplay_scene.tscn
+res://scenes/player/player.tscn
+res://scenes/world/world.tscn
+res://src/playerController.gd
